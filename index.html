@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>List of services & Its Charges</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Service Name</th>
+    <th style="width:40%;">Service Charge</th>
+  </tr>
+  
+  <tr>
+    <td>Photostat A4 single side</td>
+    <td>5/-</td>
+  </tr>
+  <tr>
+    <td>Photostat A4 double side</td>
+    <td>7/-</td>
+  </tr>
+  <tr>
+    <td>Photostat A4 single side colour</td>
+    <td>20/-</td>
+  </tr>
+  <tr>
+    <td>Photostat Legal single side</td>
+    <td>6/-</td>
+  </tr>
+  <tr>
+    <td>Photostat Legal double side</td>
+    <td>8/-</td>
+  </tr>
+  <tr>
+    <td>Photostat Legal single side colour</td>
+    <td>20/-</td>
+  </tr>
+  <tr>
+    <td>Photostat A3 single side</td>
+    <td>10/-</td>
+  </tr>
+  <tr>
+    <td>Photostat A3 double side</td>
+    <td>15/-</td>
+  </tr>
+  <tr>
+    <td>Photostat A3 single side colour</td>
+    <td>40/-</td>
+  </tr>
+  <tr>
+    <td>Printout A4</td>
+    <td>10/-</td>
+  </tr>
+  <tr>
+    <td>Printout A4 Color</td>
+    <td>30/-</td>
+  </tr>
+  <tr>
+    <td>Printout A3</td>
+    <td>20/-</td>
+  </tr>
+  <tr>
+    <td>Printout A3 color</td>
+    <td>40/-</td>
+  </tr>
+  <tr>
+    <td>Lamination ID Card</td>
+    <td>40/-</td>
+  </tr>
+  <tr>
+    <td>Lamination RC Size</td>
+    <td>50/-</td>
+  </tr>
+  <tr>
+    <td>Lamination A4 Size</td>
+    <td>80/-</td>
+  </tr>
+  <tr>
+    <td>Lamination Legal Size</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Lamination A3 Size</td>
+    <td>120/-</td>
+  </tr>
+  <tr>
+    <td>ID Card PVC</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>DTP A4 per Page</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>DTP Legal per Page</td>
+    <td>120/-</td>
+  </tr>
+  <tr>
+    <td>DTP Agreement Typing (Min. Charge)</td>
+    <td>250/-</td>
+  </tr>
+  <tr>
+    <td>DTP Printing to Stamp Paper (Per Page)</td>
+    <td>60/-</td>
+  </tr>
+  <tr>
+    <td>Scanning Per Paper</td>
+    <td>10/-</td>
+  </tr>
+  <tr>
+    <td>Spiral Binding ( Minimum)</td>
+    <td>50/-</td>
+  </tr>
+  <tr>
+    <td>Fund Tranfer </td>
+    <td>Mini. 20/- + (Extra 10/- per 1000/-)</td>
+  </tr>
+  <tr>
+    <td>Aadhaar PVC</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Aims Registration</td>
+    <td>70/-</td>
+  </tr>
+  <tr>
+    <td>Birth Registration</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Caste Certificate</td>
+    <td>60/-</td>
+  </tr>
+  <tr>
+    <td>Community Certificate</td>
+    <td>60/-</td>
+  </tr>
+  <tr>
+    <td>Driving Licence Duplicate</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>Employment Registration</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Employment Renewal</td>
+    <td>50/-</td>
+  </tr>
+  <tr>
+    <td>Driving Licence Duplicate</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>Driving Licence Duplicate</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>Driving Licence Duplicate</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>Driving Licence Duplicate</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>Driving Licence Duplicate</td>
+    <td>nil</td>
+  </tr>
+  
+  <tr>
+    <td>Pancard</td>
+    <td>250/-</td>
+  </tr>
+  <tr>
+    <td>Passport</td>
+    <td>1800/-</td>
+  </tr>
+  <tr>
+    <td>Income Certificate</td>
+    <td>60/-</td>
+  </tr>
+  <tr>
+    <td>Possession Certificate</td>
+    <td>60/-</td>
+  </tr>
+  <tr>
+    <td>Encumbrance (Kudikkadam)</td>
+    <td>Fee + Min. 100/-</td>
+  </tr>
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+</body>
+</html>
